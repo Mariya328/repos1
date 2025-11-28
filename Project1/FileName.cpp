@@ -73,7 +73,7 @@ void main() {
           SetConsoleOutputCP(1251);
         
           printf("Hello World!");
-          printf("");
+          printf("првиет");
      
         scanf_s("%d", &n);
 
