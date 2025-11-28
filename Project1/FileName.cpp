@@ -64,7 +64,17 @@ void main() {
         printf("3: Вывести 5 первых нечетных чисел начиная с 1\n");
         printf("11: Вывести числа 100 90 80 ... 10 (через WHILE)\n");
         printf("12: Вывести числа 1000 900 800 ... 100 (через WHILE)\n");
-
+        #include <stdio.h>
+        #include <Windows.h>
+        
+        void main()
+  
+          SetConsoleCP(1251);
+          SetConsoleOutputCP(1251);
+        
+          printf("Hello World!");
+          printf("");
+     
         scanf_s("%d", &n);
 
         switch (n) {
